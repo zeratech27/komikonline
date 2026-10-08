@@ -4,7 +4,14 @@
 <div class="container">
   <div class="row">
     <div class="col">
-        <h1 class="mt-5"> <?php echo $title ?></h1>
+        <a href="/komik/data/create" class=" mt-3">Tambah data</a>
+        <h1 class="mt-1"> <?php echo $title ?></h1>
+        
+        <?php if (session()->getFlashdata('pesan') ): ?>
+        <div class="alert alert-success" role="alert">
+             <?php echo session()->getFlashdata('pesan') ?>
+        </div>
+        <?php endif; ?>
        <table class="table" style="vertical-align: middle;" >
             <thead>
                 <tr>

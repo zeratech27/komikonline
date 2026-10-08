@@ -1241,3 +1241,711 @@ in APPPATH\Views\komik\detail.php on line 9.
 10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 19:53:42 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 9.
+ 1 APPPATH\Views\komik\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 9)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 19:53:42 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 9.
+ 1 APPPATH\Views\komik\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 9)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 19:53:49 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 9.
+ 1 APPPATH\Views\komik\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 9)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:00:47 --> ErrorException: Undefined variable $k
+[Method: GET, Route: komik/naruto]
+in APPPATH\Views\komik\detail.php on line 7.
+ 1 APPPATH\Views\komik\detail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $k', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('naruto')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:00:58 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 7.
+ 1 APPPATH\Views\komik\detail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:00:58 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 7.
+ 1 APPPATH\Views\komik\detail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:01:15 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 7.
+ 1 APPPATH\Views\komik\detail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:01:16 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 7.
+ 1 APPPATH\Views\komik\detail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:01:47 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 7.
+ 1 APPPATH\Views\komik\detail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:01:48 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 7.
+ 1 APPPATH\Views\komik\detail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:02:37 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:02:38 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:02:49 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:02:49 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:03:01 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:03:01 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:03:21 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:03:21 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:03:46 --> ErrorException: Undefined array key "Judul"
+[Method: GET, Route: komik/naruto]
+in APPPATH\Views\komik\detail.php on line 12.
+ 1 APPPATH\Views\komik\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Judul"', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('naruto')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:03:54 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:03:54 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:04:03 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:04:03 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:19:29 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:19:29 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:20:02 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:20:03 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:21:02 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:21:02 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:21:39 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:21:39 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:21:45 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:22:47 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:22:48 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:23:26 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:23:26 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:23:33 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:23:33 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:26:48 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/create]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:29:46 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/create]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:30:29 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/create]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:30:36 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/create]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:34:20 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/create/]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:34:43 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/styles.css]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 20:34:43 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/main.js]
+in APPPATH\Views\komik\detail.php on line 8.
+ 1 APPPATH\Views\komik\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('/komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(34): view('/komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->detail('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 21:17:59 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: %3C]
+in SYSTEMPATH\Router\Router.php on line 766.
+ 1 SYSTEMPATH\Router\Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars('<')
+ 2 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('<')
+ 3 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 21:18:35 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: %3C]
+in SYSTEMPATH\Router\Router.php on line 766.
+ 1 SYSTEMPATH\Router\Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars('<')
+ 2 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('<')
+ 3 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-08 21:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-08 21:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-08 21:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-08 21:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-08 21:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-08 21:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-08 21:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-08 21:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-08 21:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-08 21:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-08 21:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
