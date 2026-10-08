@@ -1,15 +1,13 @@
+<?php echo $this->extend('layout/template') ?>
 
-    <div class="container my-5">
-      <h1>Hello, world!</h1>
-      <div class="col-lg-8 px-0">
-        <p class="fs-5">You've successfully loaded up the Bootstrap starter example. It includes <a href="https://getbootstrap.com/">Bootstrap 5</a> via the <a href="https://www.jsdelivr.com/package/npm/bootstrap">jsDelivr CDN</a> and includes an additional CSS and JS file for your own code.</p>
-        <p>Feel free to download or copy-and-paste any parts of this example.</p>
+<?php echo $this->section('content') ?>
+<div class="container">
+  <div class="row">
+  <div class="col"> 
+        <h1>HOme Page</h1>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.
+  </div> 
+  </div>
+</div>
 
-        <hr class="col-1 my-4">
-
-        <a href="https://getbootstrap.com" class="btn btn-primary">Read the Bootstrap docs</a>
-        <a href="https://github.com/twbs/examples" class="btn btn-secondary">View on GitHub</a>
-      </div>
-    </div>
-
- 
+<?php echo $this->endSection() ?>

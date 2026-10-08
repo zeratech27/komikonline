@@ -69,3 +69,76 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
  8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-02 15:33:59 --> ErrorException: Undefined variable $title
+[Method: GET, Route: about]
+in APPPATH\Views\layout\header.php on line 6.
+ 1 APPPATH\Views\layout\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\komik_online\\app\\Views\\layout\\header.php', 6)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('layout/header')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Pages->about()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-02 15:35:54 --> ErrorException: Undefined variable $title
+[Method: GET, Route: about]
+in APPPATH\Views\layout\header.php on line 6.
+ 1 APPPATH\Views\layout\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\komik_online\\app\\Views\\layout\\header.php', 6)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(22): view('layout/header')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Pages->about()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-02 15:35:58 --> ErrorException: Undefined variable $title
+[Method: GET, Route: about]
+in APPPATH\Views\layout\header.php on line 6.
+ 1 APPPATH\Views\layout\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\komik_online\\app\\Views\\layout\\header.php', 6)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(22): view('layout/header')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Pages->about()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-02 15:36:05 --> ErrorException: Undefined variable $title
+[Method: GET, Route: about]
+in APPPATH\Views\layout\header.php on line 6.
+ 1 APPPATH\Views\layout\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\komik_online\\app\\Views\\layout\\header.php', 6)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(22): view('layout/header')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Pages->about()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-02 15:53:13 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 4.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/home', [], true)
+ 3 APPPATH\Controllers\Pages.php(13): view('pages/home')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')

@@ -1,20 +1,13 @@
-<main>
-  <h1 class="visually-hidden">Heroes examples</h1>
+<?php echo $this->extend('layout/template') ?>
 
-  <div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="<?php echo base_url('vendor/img/logoboot.png'); ?>" alt="" width="72" height="57"> 
-    <h1 class="display-5 fw-bold">Centered hero</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-      </div>
+<?php echo $this->section('content') ?>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>About Me</h1>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum. 
     </div>
   </div>
+</div>
 
-
-
-
-
-</main>
+<?php echo $this->endSection() ?>
