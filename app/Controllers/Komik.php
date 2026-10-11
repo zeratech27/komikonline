@@ -40,15 +40,42 @@ class Komik extends BaseController
 
     public function create()
     {
+        // session();
         $data= [
-            'title' =>  'Form tambah Komik'
+            'title' =>  'Form tambah Komik',
         ];
         return view('komik/create', $data);
     }
 
     public function save()
-    {
-        // validasi
+
+    {   
+        $judul=  $this->request->getVar('judul');
+
+       $rule= [
+        'judul' => 'required|is_unique[komik.judul]',
+        'penulis' => 'required',
+        'penerbit' => 'required',
+       ];
+
+       $errors= [
+        'judul' => [
+            'required' => 'Judul harus di isi!',
+            'is_unique' => 'Judul sudah Ada!'
+        ],
+        'penulis'=> [
+            'required' => 'Penulis harus di isi!'
+        ],
+         'penerbit'=> [
+            'required' => 'Penerbit harus di isi!'
+        ]
+       ];
+
+       if(!$this->validate($rule, $errors)) {
+        return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
+
+       }
+
         $sluj= url_title($this->request->getVar('judul'), '-', true);
         $this->kmodel->save([
             'judul' => $this->request->getVar('judul'),
@@ -58,9 +85,23 @@ class Komik extends BaseController
             'sampul' => $this->request->getVar('sampul'),
         ]);
 
-        session()->setFlashdata('pesan', 'Data berhasil ditambahkan');
-        return redirect()->to('komik');
+       return redirect()->to('komik')->with('pesan', 'Data Tersimpan!');   
+    }
 
+    public function hapus($id)
+    {
+        $this->kmodel->delete($id);
+        return redirect()->to('komik')->with('hapus', 'Data TERHAPUS!');
 
     }
+
+    public function edit($slug)
+    {
+            $data= [
+            'title' =>  'Form Edit Komik',
+            'komik' => $this->kmodel->getKomik($slug)
+        ];
+        return view('komik/edit', $data);
+    }
+    
 }

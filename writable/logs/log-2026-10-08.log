@@ -1949,3 +1949,66 @@ DEBUG - 2026-10-08 21:37:34 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2026-10-08 21:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-10-08 21:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-10-08 21:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-08 23:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-08 23:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-08 23:26:44 --> ErrorException: Undefined property: App\Controllers\Cicilan::$load
+[Method: GET, Route: cicilan]
+in APPPATH\Controllers\Cicilan.php on line 10.
+ 1 APPPATH\Controllers\Cicilan.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Cicilan::$load', 'C:\\laragon\\www\\komik_online\\app\\Controllers\\Cicilan.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Cicilan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cicilan))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 23:30:49 --> ErrorException: Undefined property: App\Controllers\Cicilan::$input
+[Method: POST, Route: simulasi/hitung]
+in APPPATH\Controllers\Cicilan.php on line 14.
+ 1 APPPATH\Controllers\Cicilan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Cicilan::$input', 'C:\\laragon\\www\\komik_online\\app\\Controllers\\Cicilan.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Cicilan->hitung()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cicilan))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 23:31:51 --> Error: Call to undefined method App\Controllers\Cicilan::getVar()
+[Method: POST, Route: simulasi/hitung]
+in APPPATH\Controllers\Cicilan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Cicilan->hitung()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cicilan))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 23:33:41 --> Error: Call to undefined method App\Controllers\Cicilan::getVar()
+[Method: POST, Route: simulasi/hitung]
+in APPPATH\Controllers\Cicilan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Cicilan->hitung()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cicilan))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-08 23:48:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "simulasi_hasil.php"
+[Method: POST, Route: simulasi/hitung]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('simulasi_hasil.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('simulasi_hasil', [], true)
+ 3 APPPATH\Controllers\Cicilan.php(46): view('simulasi_hasil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Cicilan->hitung()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cicilan))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-08 23:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-08 23:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-08 23:59:33 --> Exception: Serialization of 'Closure' is not allowed
+[Method: POST, Route: komik/data/save]
+in [no active file] on line 0.
+ 1 [internal function]: session_write_close()

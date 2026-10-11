@@ -18,6 +18,9 @@
               <li class="nav-item">
               <a class="nav-link active" href="<?php echo base_url('contact') ?>">Contact</a> 
             </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="<?php echo base_url('cicilan') ?>">Cicilan</a> 
+            </li>
           </ul>
 
         </div>

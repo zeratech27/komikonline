@@ -7,11 +7,16 @@
         <a href="/komik/data/create" class=" mt-3">Tambah data</a>
         <h1 class="mt-1"> <?php echo $title ?></h1>
         
-        <?php if (session()->getFlashdata('pesan') ): ?>
-        <div class="alert alert-success" role="alert">
-             <?php echo session()->getFlashdata('pesan') ?>
-        </div>
-        <?php endif; ?>
+        <?php if (session()->getFlashdata('pesan') ){ ?>
+        <div class="alert alert-success" role="alert">  
+        <?php echo session()->getFlashdata('pesan') ?> </div>
+
+        <?php } else { if (session()->getFlashdata('hapus') ) {?>
+        <div class="alert alert-danger" role="alert">    
+               <?php echo session()->getFlashdata('hapus') ?>
+        <?php } ?></div>
+        <?php } ?>
+
        <table class="table" style="vertical-align: middle;" >
             <thead>
                 <tr>
