@@ -18,26 +18,27 @@
             </div>
         <?php endif; ?>
 
-            <form action="/komik/data/save" method="post">
+            <form action="/komik/update/<?php echo $komik['id'] ?>" method="post"> 
                 <?php echo csrf_field() ?>
+                <input type="hidden" name="slug" value="<?php echo $komik['slug'] ?>">
                 <div class="mb-3">
                     <label for="judul" class="form-label">Judul Komik</label>
-                    <input type="text" class="form-control" id="judul" name="judul" value="<?php echo old('judul') ?>" autofocus > 
+                    <input type="text" class="form-control" id="judul" name="judul" value="<?php echo $komik['judul'] ?>" autofocus > 
                     </div>
                 <div class="mb-3">
                     <label for="penulis" class="form-label">Nama Penulis</label>
-                    <input type="text" class="form-control" id="penulis" name="penulis" value="<?php echo old('penulis') ?>">
+                    <input type="text" class="form-control" id="penulis" name="penulis" value="<?php echo $komik['penulis'] ?>">
                 </div>
                 <div class="mb-3">
                     <label for="penerbit" class="form-label">Nama Penerbit</label>
-                    <input type="text" class="form-control" id="penerbit" name="penerbit" value="<?php echo old('penerbit') ?>">
+                    <input type="text" class="form-control" id="penerbit" name="penerbit" value="<?php echo $komik['penerbit'] ?>">
                 </div>
                 <div class="mb-3">
                     <label for="sampul" class="form-label">Cover</label>
-                    <input type="text" class="form-control" id="sampul" name="sampul" value="<?php echo old('sampul') ?>">
+                    <input type="text" class="form-control" id="sampul" name="sampul" value="<?php echo $komik['sampul'] ?>">
                 </div>
                 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Ubah Data</button>
             </form>
             
         </div>

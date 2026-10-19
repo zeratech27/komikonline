@@ -32,7 +32,7 @@
                   $no=1;
                   foreach ($komik as $k): ?>
                 <th scope="row"><?php echo $no++ ?></th> 
-                <td><img src="vendor/img/<?php echo $k['sampul']  ?> " alt="" width="70px"> </td> 
+                <td><img src="uploads/<?php echo $k['sampul']  ?> " alt="" width="70px"> </td> 
                 <td><?php echo $k['judul'] ?></td>
                 <td><a href="<?php echo '/komik/'.$k['slug']; ?>" class="btn btn-success">Detail  </td> 
                 </tr>

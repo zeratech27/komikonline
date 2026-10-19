@@ -1,0 +1,825 @@
+DEBUG - 2026-10-19 01:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 01:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 01:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 01:33:45 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 01:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 01:33:45 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-19 01:33:52 --> ErrorException: Undefined array key "judul"
+[Method: POST, Route: komik/update/1]
+in APPPATH\Controllers\Komik.php on line 113.
+ 1 APPPATH\Controllers\Komik.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul"', 'C:\\laragon\\www\\komik_online\\app\\Controllers\\Komik.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 02:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 02:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 02:40:10 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 02:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 02:40:10 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 02:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 02:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 02:42:11 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 02:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 02:42:11 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 02:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 02:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 02:42:20 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 02:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 02:42:20 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 02:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 02:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 02:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 02:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 02:45:12 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 02:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 02:45:12 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 02:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 02:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 02:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 02:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 02:45:33 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 02:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 02:45:33 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 02:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 02:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 02:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 02:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 02:52:42 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 02:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 02:52:43 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 02:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 02:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 02:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 02:52:58 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 02:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 02:52:58 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:05:44 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:05:44 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:06:28 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:06:29 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:07:06 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:07:06 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:07:12 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:07:13 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:09:34 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:09:34 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:09:52 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:09:52 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:09:59 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/styles.css]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:09:59 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: komik/edit/main.js]
+in APPPATH\Views\komik\edit.php on line 21.
+ 1 APPPATH\Views\komik\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\komik_online\\app\\Views\\komik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/edit', [], true)
+ 5 APPPATH\Controllers\Komik.php(104): view('komik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->edit('main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:30:57 --> CodeIgniter\Validation\Exceptions\ValidationException: " required,uploaded" is not a valid rule.
+[Method: POST, Route: komik/data/save]
+in SYSTEMPATH\Validation\Validation.php on line 354.
+ 1 SYSTEMPATH\Validation\Validation.php(354): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound(' required,uploaded')
+ 2 SYSTEMPATH\Validation\Validation.php(210): CodeIgniter\Validation\Validation->processRules('sampul', 'sampul', null, [...], [...], 'sampul')
+ 3 SYSTEMPATH\Controller.php(136): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Komik.php(75): CodeIgniter\Controller->validate([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:31:29 --> CodeIgniter\Validation\Exceptions\ValidationException: " required" is not a valid rule.
+[Method: POST, Route: komik/data/save]
+in SYSTEMPATH\Validation\Validation.php on line 354.
+ 1 SYSTEMPATH\Validation\Validation.php(354): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound(' required')
+ 2 SYSTEMPATH\Validation\Validation.php(210): CodeIgniter\Validation\Validation->processRules('sampul', 'sampul', null, [...], [...], 'sampul')
+ 3 SYSTEMPATH\Controller.php(136): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Komik.php(75): CodeIgniter\Controller->validate([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-19 03:31:54 --> CodeIgniter\Validation\Exceptions\ValidationException: "}s}wmesampul}1024]" is not a valid rule.
+[Method: POST, Route: komik/data/save]
+in SYSTEMPATH\Validation\Validation.php on line 354.
+ 1 SYSTEMPATH\Validation\Validation.php(354): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('}s}wmesampul}1024]')
+ 2 SYSTEMPATH\Validation\Validation.php(210): CodeIgniter\Validation\Validation->processRules('sampul', 'sampul', null, [...], [...], 'sampul')
+ 3 SYSTEMPATH\Controller.php(136): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Komik.php(75): CodeIgniter\Controller->validate([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:32:37 --> CodeIgniter\Validation\Exceptions\ValidationException: "urmumwesampul]" is not a valid rule.
+[Method: POST, Route: komik/data/save]
+in SYSTEMPATH\Validation\Validation.php on line 354.
+ 1 SYSTEMPATH\Validation\Validation.php(354): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('urmumwesampul]')
+ 2 SYSTEMPATH\Validation\Validation.php(210): CodeIgniter\Validation\Validation->processRules('sampul', 'sampul', null, [...], [...], 'sampul')
+ 3 SYSTEMPATH\Controller.php(136): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Komik.php(75): CodeIgniter\Controller->validate([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:39:25 --> Error: Call to undefined function App\Controllers\move()
+[Method: POST, Route: komik/data/save]
+in APPPATH\Controllers\Komik.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-19 03:39:57 --> ArgumentCountError: move_uploaded_file() expects exactly 2 arguments, 1 given
+[Method: POST, Route: komik/data/save]
+in APPPATH\Controllers\Komik.php on line 82.
+ 1 APPPATH\Controllers\Komik.php(82): move_uploaded_file('uploads')
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:44:52 --> Error: Call to undefined function App\Controllers\move()
+[Method: POST, Route: komik/data/save]
+in APPPATH\Controllers\Komik.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 03:45:25 --> Error: Call to a member function getName() on false
+[Method: POST, Route: komik/data/save]
+in APPPATH\Controllers\Komik.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 03:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 03:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 04:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 04:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 04:04:32 --> ErrorException: Undefined variable $newname
+[Method: POST, Route: komik/data/save]
+in APPPATH\Controllers\Komik.php on line 95.
+ 1 APPPATH\Controllers\Komik.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newname', 'C:\\laragon\\www\\komik_online\\app\\Controllers\\Komik.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 04:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 04:08:00 --> ErrorException: Undefined variable $newname
+[Method: POST, Route: komik/data/save]
+in APPPATH\Controllers\Komik.php on line 93.
+ 1 APPPATH\Controllers\Komik.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newname', 'C:\\laragon\\www\\komik_online\\app\\Controllers\\Komik.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 04:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 04:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 04:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 04:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 04:14:20 --> Error: Call to a member function getRandomName() on string
+[Method: POST, Route: komik/data/save]
+in APPPATH\Controllers\Komik.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 04:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 04:16:38 --> Error: Undefined constant "App\Controllers\file"
+[Method: POST, Route: komik/data/save]
+in APPPATH\Controllers\Komik.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 04:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 04:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 04:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 04:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 04:27:30 --> Error: Call to undefined function form_open_multipart()
+[Method: GET, Route: komik/data/create]
+in APPPATH\Views\komik\create.php on line 21.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/create', [], true)
+ 4 APPPATH\Controllers\Komik.php(47): view('komik/create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->create()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 04:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 04:27:44 --> Error: Call to undefined function form_open_multipart()
+[Method: GET, Route: komik/data/create]
+in APPPATH\Views\komik\create.php on line 21.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/create', [], true)
+ 4 APPPATH\Controllers\Komik.php(47): view('komik/create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->create()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 04:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 04:30:09 --> Error: Call to undefined function form_open_multipart()
+[Method: GET, Route: komik/data/create]
+in APPPATH\Views\komik\create.php on line 21.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('komik/create', [], true)
+ 4 APPPATH\Controllers\Komik.php(47): view('komik/create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->create()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 05:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 05:13:28 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php9694.tmp" to "C:\laragon\www\komik_online\/". Reason: 
+[Method: POST, Route: komik/data/save]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 158.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php9694.tmp', 'C:\\laragon\\www\\komik_online\\/', '')
+ 2 APPPATH\Controllers\Komik.php(82): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\komik_online\\/', 'public/uploads/', true)
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 05:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-19 05:14:22 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php6AAE.tmp" to "C:\laragon\www\komik_online\writable\/". Reason: 
+[Method: POST, Route: komik/data/save]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 158.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php6AAE.tmp', 'C:\\laragon\\www\\komik_online\\writable\\/', '')
+ 2 APPPATH\Controllers\Komik.php(82): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\komik_online\\writable\\/', 'public/uploads/', true)
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+CRITICAL - 2026-10-19 05:14:40 --> CodeIgniter\HTTP\Exceptions\HTTPException: The uploaded file has already been moved.
+[Method: POST, Route: komik/data/save]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 139.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(361): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\komik_online\\writable\\uploads/uploads/', '1792386880_9dcfae628694d43d4ff4.jpg')
+ 3 APPPATH\Controllers\Komik.php(87): CodeIgniter\HTTP\Files\UploadedFile->store('uploads/', '1792386880_9dcfae628694d43d4ff4.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Komik->save()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\komik_online\\public\\index.php')
+DEBUG - 2026-10-19 05:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-19 05:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

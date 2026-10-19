@@ -12,6 +12,7 @@ $routes->get('/komik/data/create', 'Komik::create');
 $routes->post('/komik/data/save', 'Komik::save');
 $routes->delete('/komik/hapus/(:num)', 'Komik::hapus/$1');
 $routes->get('/komik/edit/(:segment)', 'Komik::edit/$1');
+$routes->post('/komik/update/(:segment)', 'Komik::update/$1');
 
 $routes->get('cicilan', 'Cicilan::index');
 $routes->post('simulasi/hitung', 'Cicilan::hitung');

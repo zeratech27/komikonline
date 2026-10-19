@@ -5,7 +5,7 @@
   <div class="row g-0">
           <h1 class="mt-5"><?php echo $title; ?> </h1>
     <div class="col-md-4">
-      <img src="/vendor/img/<?php echo $komik['sampul']  ?> " class="img-fluid rounded-start" alt="...">
+      <img src="/uploads/<?php echo $komik['sampul']  ?> " class="img-fluid rounded-start" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">

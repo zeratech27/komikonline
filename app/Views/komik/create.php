@@ -18,7 +18,7 @@
             </div>
         <?php endif; ?>
 
-            <form action="/komik/data/save" method="post">
+            <form action="/komik/data/save" method="post" enctype="multipart/form-data">
                 <?php echo csrf_field() ?>
                 <div class="mb-3">
                     <label for="judul" class="form-label">Judul Komik</label>
@@ -33,8 +33,8 @@
                     <input type="text" class="form-control" id="penerbit" name="penerbit" value="<?php echo old('penerbit') ?>">
                 </div>
                 <div class="mb-3">
-                    <label for="sampul" class="form-label">Cover</label>
-                    <input type="text" class="form-control" id="sampul" name="sampul" value="<?php echo old('sampul') ?>">
+                    <input type="file" class="form-control" aria-label="sampul" id="sampul" name="sampul" required>
+                    <div class="invalid-feedback">Example invalid form file feedback</div>
                 </div>
                 
                 <button type="submit" class="btn btn-primary">Submit</button>
